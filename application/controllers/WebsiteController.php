@@ -145,7 +145,7 @@ class WebsiteController extends CI_Controller
 	
 				$config = array(
 					'protocal' => 'mail',
-					'smtp_host' => 'mail.your domain',
+					'smtp_host' => 'mail.your domain name',
 					'smtp_port' => 465,
 					'smpt_timeout' => 30,
 					'smtp_crypto' => 'ssl',
