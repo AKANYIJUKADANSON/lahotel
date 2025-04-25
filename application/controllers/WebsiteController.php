@@ -145,12 +145,12 @@ class WebsiteController extends CI_Controller
 	
 				$config = array(
 					'protocal' => 'mail',
-					'smtp_host' => 'mail.khosaleague.com',
+					'smtp_host' => 'mail.your domain',
 					'smtp_port' => 465,
 					'smpt_timeout' => 30,
 					'smtp_crypto' => 'ssl',
-					'smtp_user' => 'marketing@khosaleague.com',
-					'smtp_pass' => 'Marketing@Khosa1',
+					'smtp_user' => 'ure useremail',
+					'smtp_pass' => 'ure user password',
 					'mailtype' => 'html',
 					'charset' => 'iso-8859-1',
 					'wordwrap' => true,
@@ -159,7 +159,7 @@ class WebsiteController extends CI_Controller
 				$this->load->library('email', $config);
 				$this->email->set_newline("\r\n"); 
 	
-				$this->email->from('marketing@khosaleague.com');
+				$this->email->from('email sending');
 				$this->email->to($sendTo);
 				$this->email->subject($subject);
 				// $this->email->message($message);
