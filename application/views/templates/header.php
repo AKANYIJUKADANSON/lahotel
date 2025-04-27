@@ -10,24 +10,6 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css" />
 
 
-    <!-- -----------------SITE LINKS---------------- -->
-    <!-- <link rel="stylesheet" href="/assets/css/open-iconic-bootstrap.min.css" />
-		<link rel="stylesheet" href="/assets/css/animate.css" />
-
-		<link rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
-		<link rel="stylesheet" href="/assets/css/owl.theme.default.min.css" />
-		<link rel="stylesheet" href="/assets/css/magnific-popup.css" />
-
-		<link rel="stylesheet" href="/assets/css/aos.css" />
-
-		<link rel="stylesheet" href="/assets/css/ionicons.min.css" />
-
-		<link rel="stylesheet" href="/assets/css/bootstrap-datepicker.css" />
-		<link rel="stylesheet" href="/assets/css/jquery.timepicker.css" />
-
-    <link rel="stylesheet" href="/assets/css/flaticon.css" />
-		<link rel="stylesheet" href="/assets/css/icomoon.css" />
-		<link rel="stylesheet" href="/assets/css/style.css" /> -->
 
     <!------------------------ICONS----------------->
     <!-- Bootsrap icons -->
@@ -35,6 +17,18 @@
     <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/bootstrap-icons.min.css" />
     <!-- remixicon -->
     <link rel="stylesheet" href="/assets/vendor/remixicon/remixicon.css" />
+
+    <!-- --------------------- Highcharts ------------------->
+    <!-- css links -->
+    <link rel="stylesheet" href="/assets/vendor/highcharts/css/dashboards.css">
+    <link rel="stylesheet" href="/assets/vendor/highcharts/css/mycharts.css">
+
+    <!-- -- JS links -------------------------------------->
+    <script src="/assets/vendor/highcharts/js/highcharts.js"></script>
+    <script src="/assets/vendor/highcharts/js/dashboards.js"></script>
+    <script src="/assets/vendor/highcharts/js/layout.js"></script>
+    <script src="/assets/vendor/highcharts/js/exporting.js"></script>
+    <script src="/assets/vendor/highcharts/js/accessibility.js"></script>
 
 
     <style>
@@ -89,13 +83,14 @@
         }
 
 
+
     </style>
+
   </head>
-  <body style="background-color: #effae5;">
+  <body style="background-color:rgb(219, 219, 219);">
 
     <div class="mHero">
       <div class="mHeader">
-
           <div class="float-start d-flex justify-content-center align-items-center h-100">
             <h3 class="text-light fw-bolder ms-2 ">Hoteleriana</h3>
 
